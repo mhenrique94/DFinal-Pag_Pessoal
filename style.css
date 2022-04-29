@@ -1,0 +1,221 @@
+@import url('https://css.gg/ui-kit.css');
+@import url('https://css.gg/code-slash.css');
+@import url('https://css.gg/database.css');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil&family=Overpass:wght@100;200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 50px;
+    align-items: center;
+    border: none;
+    padding: 20px;
+    font-family: 'Overpass', sans-serif;
+    
+}
+
+#logo {
+    font-size: 24pt;
+    line-height: 50px;
+    
+}
+
+nav ul {
+    display: inline;
+    float: right;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    color: whitesmoke;
+    font-weight: 600;
+    
+}
+
+nav li:hover {
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+}
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#sobre {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 90px;
+    text-align: center;
+    height: calc(100vh);
+    line-height: 24pt;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+#perfil {
+    text-align: justify;
+    padding-top: 5%;
+   
+}
+
+#perfil p {
+    display: inline;
+    font-size: 18pt;
+}
+
+#perfil img {
+    width: 250px;
+    float: right;
+    margin-left: 20px;
+}
+
+
+#btnCv {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+#coisasquefaco {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+    margin: auto;
+
+}
+
+.coisa {
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    max-width: 340px;
+    color: white;
+    line-height: 18pt;
+}
+
+.coisa:hover {
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+    
+}
+
+.coisa img:hover {
+    filter: invert(100%);
+}
+
+
+.coisa img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+#btnCv:hover {
+    filter: invert(100%);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#curriculo {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    height: 100vh;
+    margin: auto;
+    max-width: 100vw;
+    font-size: 14pt;
+    background-color: rgb(248, 248, 248);
+}
+
+#contato {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: calc(100vh - 120px);
+    padding-top: 100px;
+    margin: auto;
+    max-width: 100vw;
+    background-color: black !important;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: left;
+}
+
+#contatocontainer {
+    font-size: 16pt;
+    margin: auto;
+    max-width: 1200px;
+}
+
+@media only screen and (max-width: 348px) {
+
+    #perfil img {
+        max-width: 50px;
+    }
+
+    #sobre {
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 90px;
+        text-align: center;
+        height: calc(100vh);
+        line-height: 14pt;
+        max-width: 350px;
+        margin: auto;
+        
+    }
+
+    #perfil p {
+        font-size: 10pt;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #sobre {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 80px;
+        height: calc(100vh - 80px);
+
+    }
+
+    #perfil {
+        text-align: justify;
+        padding-top: 3%;
+      
+    }
+
+    #coisasquefaco {
+        padding-top: 0px;
+    
+    }
+}
+
