@@ -155,27 +155,49 @@ nav li:hover {
 
 .slides {
     display: none;
+    
 }
 .sl-container{
     width: 100%;
-    height: 50%;
+    height: 70%;
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 .sl-div{
-    margin: auto;
     width: 100%;
-    background-color: black;
-    padding: 20px;
+    padding: 30px;
     color: white;
-    line-height: 18pt;
     height: 100%;
-    
     
 }
 
-.cv-exp-titulo {
+.cv-exp-h3 {
     margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.cv-exp-h4 {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.cv-exp-h5 {
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.cv-exp-corpo {
+    font-size: 22px;
+    max-width: 600px;
+}
+
+.cv-img {
+    float: right;
+    filter: invert();
+    height: auto;
+    max-height: 500px;
+    margin-right: 10%;
 }
 
 #contato {
@@ -204,25 +226,51 @@ nav li:hover {
     height: 50%;
 }
 
-@media only screen and (max-width: 375px) {
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+@media only screen and (max-width: 414px) {
 
     nav {
         height: 4em;
-        padding: 5px;  
+        padding: 0;
+     
     }
 
+    nav ul {
+        margin-right: 10px;
+    }
 
     nav li{
-        display: inline-block;
-        width: 25%;
+        display: inline;
+        width: 10%;
         color: whitesmoke;
         font-weight: 600;
+        margin: auto;
+        padding: 5px;
         
     }
 
 
     #logo {
         font-size: 16pt;
+        line-height: 3em;
+        margin-left: 10px;
     }
   
 
@@ -250,7 +298,15 @@ nav li:hover {
         word-spacing: 0.5px;
     }
 
+    #coisasquefaco {
+        overflow: scroll;
+        height: 40%;
+    }
 
+    .coisa {
+        width: 300px;
+        max-width: 360px;
+    }
 }
 
 
