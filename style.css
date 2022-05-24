@@ -111,6 +111,7 @@ nav li:hover {
 }
 .coisas-h2{
     margin: 30px auto;
+    font-size: 24pt;
 }
 .coisa {
     background-color: black;
@@ -345,6 +346,10 @@ nav li:hover {
         padding: 15% 2%;
     }
 
+    #curriculo h2 {
+        margin: 30px auto;
+        font-size: 24pt;
+    }
     .sl-container {
         height: 80%;
         
