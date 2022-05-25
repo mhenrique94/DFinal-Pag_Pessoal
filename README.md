@@ -1,4 +1,6 @@
-# D2.5Pag_Pessoal
+# DFinal-Pag_Pessoal
 
+Página pessoal desenvolvida com base no desafio final da aula de front end básico do programa Busertech @ Buser.
 
-https://mhenrique94.github.io/D2.5Pag_Pessoal/
+Prévia:
+[Página Pessoal](https://mhenrique94.github.io/DFinal-Pag_Pessoal/)
