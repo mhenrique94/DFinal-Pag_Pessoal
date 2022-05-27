@@ -328,7 +328,7 @@ nav li:hover {
 }
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 800px) {
 
     nav {
         height: 4em;
@@ -380,7 +380,6 @@ nav li:hover {
         padding-right: 2%;
         padding-top: 12%;
         line-height: 18pt;
-        max-width: 360px;
         margin: auto;
         
     }
