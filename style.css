@@ -27,10 +27,9 @@ nav {
     
 }
 
-#logo {
-    font-size: 24pt;
-    line-height: 50px;
-    
+#logo img{
+    height: 80%;
+    margin: auto;
 }
 
 nav ul {
@@ -274,6 +273,50 @@ nav li:hover {
 	animation-timing-function: ease-in;
 	animation-duration: 1s;
 }
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.fotos {
+    column-count: 2;
+    margin: auto;
+    display: block;
+    
+}
+.fotos img {
+    width: 100%;
+    max-width: 380px;
+    max-height: 260px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin: auto;
+    filter: grayscale(0.5);
+}
+
+.fotos img:hover {
+    filter: none;
+}
+
+.btn-inicio {
+    font-size: 3rem;
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.greycolor {
+    color: #000000;
+    background-color: white;
+    border-radius: 26px;
+}
+
+.greycolor:hover {
+    background-color: grey;
+}
 
 @keyframes fadeInOpacity {
 	0% {
@@ -421,6 +464,16 @@ nav li:hover {
     .mapouter {
         height: 40%;
         max-height: 400px;
+    }
+
+    .fotos {
+        column-count: 1;
+        margin: auto;
+        display: block;
+    }
+
+    .fotos img {
+        margin: 5% auto;
     }
 
 
