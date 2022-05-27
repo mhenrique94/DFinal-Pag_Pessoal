@@ -276,7 +276,7 @@ nav li:hover {
 .portfolio {
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    padding: 1% 10%;
 }
 
 .fotos {
@@ -316,6 +316,7 @@ nav li:hover {
 .greycolor:hover {
     background-color: grey;
 }
+
 
 @keyframes fadeInOpacity {
 	0% {
