@@ -73,7 +73,7 @@ nav li:hover {
 #sobre {
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 90px;
+    /* padding-top: 90px; */
     text-align: justify;
     height: calc(100vh);
     line-height: 24pt;
@@ -90,7 +90,8 @@ nav li:hover {
 
 
 #perfil img {
-    width: 250px;
+    width: 18%;
+    max-width: 250px;
     float: right;
     margin-left: 20px;
     margin-top: 20px;
@@ -113,6 +114,7 @@ nav li:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;    
     margin: auto;
+    /* overflow: hidden; */
 
 }
 .coisas-h2{
@@ -135,15 +137,18 @@ nav li:hover {
 }
 
 .coisa:hover {
-    background-color: white;
     transition: 0.3s;
-    color: black;
+    max-width: 340px;
+    z-index: 1;
+    align-self: flex-start;
+    transition: .5s;
+    filter: invert(100%);
+    margin: auto;
+    height: 100%;
     
 }
 
-.coisa img:hover {
-    filter: invert(100%);
-}
+
 
 
 .coisa img {
@@ -151,6 +156,18 @@ nav li:hover {
     margin: auto;
     padding: 20px;
 }
+
+.label {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.label progress {
+    width: 100%;
+    accent-color: #DDDDDD;
+}
+
 
 #btnCv:hover {
     filter: invert(100%);
@@ -190,6 +207,7 @@ nav li:hover {
     align-items: center;
     margin: auto;
     padding: auto 15%;
+    max-width: 1000px;
 }
 .sl-div{
     width: 100%;
@@ -401,6 +419,31 @@ nav li:hover {
     .coisa {
         width: 300px;
         max-width: 360px;
+        margin: 5px;
+        padding: 20px;
+        max-width: 340px;
+        color: white;
+        line-height: 18pt;
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .coisa img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        width: 40%;
+    }
+    
+    .label {
+        display: block;
+        width: 100%;
+        margin-top: 1%;
+    }
+    
+    .label progress {
+        width: 100%;
+        accent-color: #DDDDDD;
     }
 
     .rolardireita {
