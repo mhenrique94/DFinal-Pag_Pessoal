@@ -3,19 +3,16 @@
 @import url('https://css.gg/database.css');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Tamil&family=Overpass:wght@100;200;300;400;500;600;700&display=swap');
 
-/* html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-} */
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: 'Overpass', sans-serif;
-    scroll-behavior: smooth;
+    
 }
 
 nav {
@@ -333,6 +330,10 @@ nav li:hover {
 
 .greycolor:hover {
     background-color: grey;
+}
+
+#contatocontainer a {
+    color: white;
 }
 
 
